@@ -22,6 +22,7 @@
 		DA92074915D9D21700A70015 /* BabyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA92074815D9D21700A70015 /* BabyTests.m */; };
 		DA92075615D9D27400A70015 /* CVector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA92075415D9D27400A70015 /* CVector3.cpp */; };
 		DA92075715D9D27400A70015 /* CVector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA92075415D9D27400A70015 /* CVector3.cpp */; };
+		DAA6EEA615DA10340093F5DC /* CMatrix4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAA6EEA415DA10340093F5DC /* CMatrix4.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		DA92074815D9D21700A70015 /* BabyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BabyTests.m; sourceTree = "<group>"; };
 		DA92075415D9D27400A70015 /* CVector3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CVector3.cpp; path = Engine/Maths/CVector3.cpp; sourceTree = "<group>"; };
 		DA92075515D9D27400A70015 /* CVector3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVector3.h; path = Engine/Maths/CVector3.h; sourceTree = "<group>"; };
+		DAA6EEA415DA10340093F5DC /* CMatrix4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CMatrix4.cpp; path = Engine/Maths/CMatrix4.cpp; sourceTree = "<group>"; };
+		DAA6EEA515DA10340093F5DC /* CMatrix4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMatrix4.h; path = Engine/Maths/CMatrix4.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +172,8 @@
 			children = (
 				DA92075415D9D27400A70015 /* CVector3.cpp */,
 				DA92075515D9D27400A70015 /* CVector3.h */,
+				DAA6EEA415DA10340093F5DC /* CMatrix4.cpp */,
+				DAA6EEA515DA10340093F5DC /* CMatrix4.h */,
 			);
 			name = Maths;
 			sourceTree = "<group>";
@@ -284,6 +289,7 @@
 				DA92072E15D9D21700A70015 /* AppDelegate.m in Sources */,
 				DA92073415D9D21700A70015 /* ViewController.m in Sources */,
 				DA92075615D9D27400A70015 /* CVector3.cpp in Sources */,
+				DAA6EEA615DA10340093F5DC /* CMatrix4.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
