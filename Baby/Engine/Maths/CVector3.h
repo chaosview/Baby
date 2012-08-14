@@ -24,15 +24,10 @@
 class CVector3{
 
 public:
-    /*************************************************
-     Function:       CVector3
-     Description:    构造函数
-     Calls:          // 被本函数调用的函数清单
-     Input:          
-     Output:         
-     Return:         
-     Others:         默认实现
-     *************************************************/
+    
+    //<summar>
+    //构造函数
+    //</summary>
     CVector3() = default;
     
     CVector3(const CVector3&) = default;
@@ -69,27 +64,20 @@ public:
     
     CVector3 &operator /= (float scaler);
     
-    /*************************************************
-     Function:       length
-     Description:    求向量模
-     Calls:          // 被本函数调用的函数清单
-     Return:         返回向量长度
-     Others:        
-     *************************************************/
+
     float length();
     
     void normalize();
     
     void zero();
     
-    /*************************************************
-     Function:       dot
-     Description:    点积
-     Input:             
-     Calls:          // 被本函数调用的函数清单
-     Return:         点积结果
-     *************************************************/
     float dot(const CVector3 &vector)const;
+    
+    
+    //<summary>向量叉乘</summary>
+    //<param name="vectorA">向量A</param>
+    //<param name="vectorB">向量B</param>
+    //<returns>同时垂直与向量A和向量B的向量</returns>
     
     CVector3 cross(const CVector3 &vectorA, const CVector3 &vectorB);
  
