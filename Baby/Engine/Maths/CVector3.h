@@ -49,14 +49,16 @@ public:
     
     CVector3 &operator -= (const CVector3 &vector);
     
-    CVector3 &operator *= (const CVector3 &vector);
+    CVector3 &operator *= (float scaler);
     
-    CVector3 &operator /= (const CVector3 &vector);
-    
-    void normalize();
+    CVector3 &operator /= (float scaler);
     
     float length();
     
+    void normalize();
+    
+    void zero();
+  
     float dot(const CVector3 &vector)const;
     
     CVector3 cross(const CVector3 &vectorA, const CVector3 &vectorB);

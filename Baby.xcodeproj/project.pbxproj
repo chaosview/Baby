@@ -458,6 +458,7 @@
 				DA92074E15D9D21700A70015 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA92074F15D9D21700A70015 /* Build configuration list for PBXNativeTarget "BabyTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +467,7 @@
 				DA92075115D9D21700A70015 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
