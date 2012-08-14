@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA8F343515DAC576000790D8 /* CQuaternion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA8F343315DAC576000790D8 /* CQuaternion.cpp */; };
 		DA92071E15D9D21700A70015 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA92071D15D9D21700A70015 /* UIKit.framework */; };
 		DA92072015D9D21700A70015 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA92071F15D9D21700A70015 /* Foundation.framework */; };
 		DA92072215D9D21700A70015 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA92072115D9D21700A70015 /* CoreGraphics.framework */; };
@@ -23,6 +24,7 @@
 		DA92075615D9D27400A70015 /* CVector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA92075415D9D27400A70015 /* CVector3.cpp */; };
 		DA92075715D9D27400A70015 /* CVector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA92075415D9D27400A70015 /* CVector3.cpp */; };
 		DAA6EEA615DA10340093F5DC /* CMatrix4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAA6EEA415DA10340093F5DC /* CMatrix4.cpp */; };
+		DAA6EEA915DA1C2B0093F5DC /* CVector4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAA6EEA715DA1C2B0093F5DC /* CVector4.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA8F343315DAC576000790D8 /* CQuaternion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CQuaternion.cpp; path = Engine/Maths/CQuaternion.cpp; sourceTree = "<group>"; };
+		DA8F343415DAC576000790D8 /* CQuaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CQuaternion.h; path = Engine/Maths/CQuaternion.h; sourceTree = "<group>"; };
 		DA92071915D9D21700A70015 /* Baby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA92071D15D9D21700A70015 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DA92071F15D9D21700A70015 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,6 +63,8 @@
 		DA92075515D9D27400A70015 /* CVector3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVector3.h; path = Engine/Maths/CVector3.h; sourceTree = "<group>"; };
 		DAA6EEA415DA10340093F5DC /* CMatrix4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CMatrix4.cpp; path = Engine/Maths/CMatrix4.cpp; sourceTree = "<group>"; };
 		DAA6EEA515DA10340093F5DC /* CMatrix4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMatrix4.h; path = Engine/Maths/CMatrix4.h; sourceTree = "<group>"; };
+		DAA6EEA715DA1C2B0093F5DC /* CVector4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CVector4.cpp; path = Engine/Maths/CVector4.cpp; sourceTree = "<group>"; };
+		DAA6EEA815DA1C2B0093F5DC /* CVector4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVector4.h; path = Engine/Maths/CVector4.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +180,10 @@
 				DA92075515D9D27400A70015 /* CVector3.h */,
 				DAA6EEA415DA10340093F5DC /* CMatrix4.cpp */,
 				DAA6EEA515DA10340093F5DC /* CMatrix4.h */,
+				DAA6EEA715DA1C2B0093F5DC /* CVector4.cpp */,
+				DAA6EEA815DA1C2B0093F5DC /* CVector4.h */,
+				DA8F343315DAC576000790D8 /* CQuaternion.cpp */,
+				DA8F343415DAC576000790D8 /* CQuaternion.h */,
 			);
 			name = Maths;
 			sourceTree = "<group>";
@@ -290,6 +300,8 @@
 				DA92073415D9D21700A70015 /* ViewController.m in Sources */,
 				DA92075615D9D27400A70015 /* CVector3.cpp in Sources */,
 				DAA6EEA615DA10340093F5DC /* CMatrix4.cpp in Sources */,
+				DAA6EEA915DA1C2B0093F5DC /* CVector4.cpp in Sources */,
+				DA8F343515DAC576000790D8 /* CQuaternion.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
